@@ -1,15 +1,15 @@
-import React from 'react'
-import {AiFillInstagram, AiOutlineTwitter} from "react-icons/ai";
+import React from 'react';
+import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai';
 const Footer = () => {
   return (
     <div className="footer-container">
-        <p>2022 JSM Headphone All rights reserved</p>
-        <p className="icons">
-            <AiFillInstagram />
-            <AiOutlineTwitter />
-        </p>
+      <p>2022 JSM Headphone All rights reserved</p>
+      <p className="icons">
+        <AiFillInstagram />
+        <AiOutlineTwitter />
+      </p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
